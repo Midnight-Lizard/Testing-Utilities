@@ -6,7 +6,6 @@
     <Authors>Pavel Agarkov</Authors>
     <Company>MidnightLizard</Company>
     <Description>Testing utilities for .Net code of Midnight-Lizard.online website</Description>
-    <PackageTags>xUnit</PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pavel-agarkov/Midnight-Lizard-Testing-Utilities</RepositoryUrl>
     <NeutralLanguage></NeutralLanguage>
