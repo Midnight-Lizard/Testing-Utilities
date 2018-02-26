@@ -4,6 +4,22 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <Authors>Pavel.Agarkov@gmail.com</Authors>
+
+    <Company>MidnightLizard</Company>
+
+    <Description>Testing utilities for .Net code of Midnight-Lizard.online website</Description>
+
+    <PackageTags>xUnit</PackageTags>
+
+    <RepositoryType>git</RepositoryType>
+
+    <RepositoryUrl>https://github.com/pavel-agarkov/Midnight-Lizard-Testing-Utilities.git</RepositoryUrl>
+
+    <NeutralLanguage></NeutralLanguage>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
