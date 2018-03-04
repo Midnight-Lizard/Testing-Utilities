@@ -2,14 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>Latest</LangVersion>
     <IsPackable>true</IsPackable>
     <Authors>Pavel Agarkov</Authors>
-    <Company>MidnightLizard</Company>
+    <Company>Midnight-Lizard</Company>
     <Description>Testing utilities for .Net code of Midnight-Lizard.online website</Description>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pavel-agarkov/Midnight-Lizard-Testing-Utilities</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>

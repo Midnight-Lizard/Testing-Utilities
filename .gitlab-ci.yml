@@ -1,0 +1,12 @@
+image: docker:latest
+services:
+- docker:dind
+variables:
+  DOCKER_DRIVER: overlay
+
+docker-build-test-deploy:
+  stage: deploy
+  only:
+  - master
+  script:
+  - docker build --build-arg NUGET_KEY=$NUGET_KEY .

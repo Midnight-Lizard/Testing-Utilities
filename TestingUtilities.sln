@@ -6,11 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{026DFB36-3ED8-4859-8B8C-0102CEDA5681}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+		Dockerfile = Dockerfile
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidnightLizard.Testing.Utilities", "utilities\MidnightLizard.Testing.Utilities.csproj", "{DE1FA1E7-99E3-46DD-AF23-BE4CDDF0D2BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidnightLizard.Testing.Utilities", "package\MidnightLizard.Testing.Utilities.csproj", "{41B293F6-9DAE-4FBD-B0C3-9FA12709DF4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +20,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE1FA1E7-99E3-46DD-AF23-BE4CDDF0D2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE1FA1E7-99E3-46DD-AF23-BE4CDDF0D2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE1FA1E7-99E3-46DD-AF23-BE4CDDF0D2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE1FA1E7-99E3-46DD-AF23-BE4CDDF0D2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B293F6-9DAE-4FBD-B0C3-9FA12709DF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B293F6-9DAE-4FBD-B0C3-9FA12709DF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B293F6-9DAE-4FBD-B0C3-9FA12709DF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B293F6-9DAE-4FBD-B0C3-9FA12709DF4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
