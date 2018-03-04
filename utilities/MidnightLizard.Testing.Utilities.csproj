@@ -8,7 +8,6 @@
     <Description>Testing utilities for .Net code of Midnight-Lizard.online website</Description>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pavel-agarkov/Midnight-Lizard-Testing-Utilities</RepositoryUrl>
-    <NeutralLanguage></NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.2</Version>
   </PropertyGroup>
@@ -16,6 +15,7 @@
   <ItemGroup>
     <PackageReference Include="NSubstitute" Version="3.1.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="JsonDiffPatch.Net" Version="2.0.2" />
     <PackageReference Include="FluentAssertions" Version="5.1.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.0.1" />
