@@ -27,4 +27,14 @@ namespace MidnightLizard.Testing.Utilities
         }
 
     }
+
+    /// <summary>
+    /// Disable a test
+    /// </summary>
+    public class XItAttribute : Attribute
+    {
+        public XItAttribute(string it, string should = "should be disabled") : base()
+        {
+        }
+    }
 }
