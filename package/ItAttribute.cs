@@ -31,10 +31,11 @@ namespace MidnightLizard.Testing.Utilities
     /// <summary>
     /// Disable a test
     /// </summary>
-    public class XItAttribute : Attribute
+    public class XItAttribute : FactAttribute
     {
         public XItAttribute(string it, string should = "should be disabled") : base()
         {
+            Skip = "Test is skipped";
         }
     }
 }

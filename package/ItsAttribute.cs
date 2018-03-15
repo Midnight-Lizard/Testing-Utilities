@@ -23,10 +23,11 @@ namespace MidnightLizard.Testing.Utilities
     /// <summary>
     /// Disable a test
     /// </summary>
-    public class XItsAttribute : Attribute
+    public class XItsAttribute : TheoryAttribute
     {
         public XItsAttribute(string it, string should = "should be disabled") : base()
         {
+            Skip = "Test is skipped";
         }
     }
 }
