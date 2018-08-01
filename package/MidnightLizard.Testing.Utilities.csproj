@@ -1,26 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <OutputType>Library</OutputType>
     <LangVersion>Latest</LangVersion>
     <IsPackable>true</IsPackable>
     <Authors>Pavel Agarkov</Authors>
     <Company>Midnight-Lizard</Company>
-    <Description>Testing utilities for .Net code of Midnight-Lizard.online website</Description>
+    <Description>Testing utilities for .Net code of Midnight-Lizard</Description>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/pavel-agarkov/Midnight-Lizard-Testing-Utilities</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.1</Version>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NSubstitute" Version="3.1.0" />
-    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="JsonDiffPatch.Net" Version="2.1.0" />
-    <PackageReference Include="FluentAssertions" Version="5.1.2" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
-    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.1.0-preview1-final" />
+    <PackageReference Include="FluentAssertions" Version="5.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.1.1" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
